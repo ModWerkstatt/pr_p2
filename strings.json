@@ -1,0 +1,45 @@
+{
+	"en": {
+
+		"menu_pr_p2" : "Rhenish railway set",
+		
+		"pr_p2" : "Rh.E. P 2",
+        "pr_p2_kpev" : "K.P.E.V. P 2",
+		"pr_p2_desc" : "For traffic on the winding Cologne-Trier route, the Rheinische Eisenbahn-Gesellschaft procured seven locomotives with the 2'B axle formula for use in express and passenger train services, which were also the first locomotives of this design in Prussia. The movable front bogie meant that the wheel flanges did not wear as much as on locomotives with a fixed running axle. From 1881, the company was completely nationalised and operated as K.P.E.V.",
+        "reg_ab" : "Rh.E. 1st/2nd cl. Coach",
+        "kpev_ab" : "K.P.E.V 1st/2nd cl. Coach",
+        "reg_ab_desc" : "The Rheinische Eisenbahngesellschaft procured compartment coaches with mixed 1st and 2nd class compartments for transport to and from Cologne.",
+
+
+		"offset x-axis": "Offset x-axis",
+		"vehicle": "Vehicle",
+		"asset": "Asset",
+		"height": "Height",
+		"ground": "Ground",
+		"rail": "Rail",
+		"height_tooltip": "Where should be the origin of the height?",
+		"jrm_param_offsetx_tooltip": "Offset in x direction"
+
+	},
+	"de": {
+
+		"menu_pr_p2" : "Rheinisches Eisennbahnset",
+		
+        "pr_p2" : "Rh.E. P 2",
+        "pr_p2_kpev" : "K.P.E.V. P 2",
+		"pr_p2_desc" : "Für den Verkehr auf der kurvenreichen Strecke Köln-Trier beschaffte die Rheinische Eisenbahn-Gesellschaft für den Einsatz im Schnellzug- und Personenzugdienst sieben Lokomotiven mit der Achsformel 2'B, die auch die ersten Lokomotiven dieser Bauart in Preußen waren. Durch das bewegliche vordere Drehgestell war der Verschleiß der Spurkränze nicht so stark wie bei den Lokomotiven mit starrer Laufachse. Ab 1881 wurde die Gesellschaft vollständig verstaatlicht und lief als K.P.E.V.",
+        "reg_ab" : "Rh.E. AB-Wagen",
+        "kpev_ab" : "K.P.E.V. AB-Wagen",
+        "reg_ab_desc" : "Für den Verkehr von und nach Köln beschaffte die Rheinische Eisenbahngesellschaft Abteilwagen mit gemischtklassigen Abteilen der 1. und 2. Klasse.",
+
+		"offset x-axis": "Offset x-Achse",
+		"vehicle": "Fahrzeug",
+		"asset": "Asset",
+		"height": "Höhe",
+		"ground": "Boden",
+		"rail": "Schiene",
+		"height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+		"jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
+
+	}
+}
