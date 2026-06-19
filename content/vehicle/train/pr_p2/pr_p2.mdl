@@ -18,19 +18,19 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kpev.mtl", },
+									materials = { "mat/rumpf.mtl", },
 									mesh = "msh/rumpf_lod0.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.973745763301849365234375, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2269999980926513671875, 0, 0.973745763301849365234375, 1, },
@@ -38,19 +38,19 @@ return {
 								{ 
 									children = {
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/drehgestell_lod0.msh",
 											name = "bogie_p2",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.596149981021881103515625, 1, },
 										},
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/rad_klein_lod0.msh",
 											name = "a3",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.65509998798370361328125, 0, 0.4570899903774261474609375, 1, },
 										},
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/rad_klein_lod0.msh",
 											name = "a4",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.657599985599517822265625, 0, 0.4570899903774261474609375, 1, },
@@ -68,7 +68,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/antrieb_links_lod0.msh",
 									name = "antrieb_links",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0054999999701976776123046875, 0.953494012355804443359375, 1.3275973796844482421875, 1, },
@@ -82,7 +82,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/antrieb_rechts_lod0.msh",
 									name = "antrieb_rechts",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.00540000014007091522216796875, -0.95349395275115966796875, 0.620044410228729248046875, 1, },
@@ -96,7 +96,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/binder_links_lod0.msh",
 									name = "binder_links",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.004800000227987766265869140625, 1.07552015781402587890625, 1.327785968780517578125, 1, },
@@ -110,7 +110,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/binder_rechts_lod0.msh",
 									name = "binder_rechts",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0051000001840293407440185546875, -1.07552325725555419921875, 0.62029135227203369140625, 1, },
@@ -124,7 +124,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/schieber_links_lod0.msh",
 									name = "schieber_links",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.918900012969970703125, 1.07518994808197021484375, 1.1935002803802490234375, 1, },
@@ -138,13 +138,13 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/schieber_rechts_lod0.msh",
 									name = "schieber_rechts",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.82630002498626708984375, -1.07519233226776123046875, 1.182054042816162109375, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/innen_lod0.msh",
 									name = "interior",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -152,7 +152,7 @@ return {
 								{ 
 									materials = { "mat/glas.mtl", },
 									mesh = "msh/glas_lod0.msh",
-									name = "fenster",
+									name = "glas",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -206,19 +206,19 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/tender_lod0.msh",
 									name = "rumpf_2t7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_tender_lod0.msh",
 									name = "a5",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3608000278472900390625, 0, 0.4700159728527069091796875, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_tender_lod0.msh",
 									name = "a6",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.35959994792938232421875, 0, 0.4700159728527069091796875, 1, },
@@ -226,7 +226,7 @@ return {
 								{ 
 									materials = { "mat/glas.mtl", },
 									mesh = "msh/glas_tender_lod0.msh",
-									name = "glas_tender",
+									name = "glas_2t7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -290,19 +290,19 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kpev.mtl", },
+									materials = { "mat/rumpf.mtl", },
 									mesh = "msh/rumpf_p2_lod1.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.973745763301849365234375, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2269999980926513671875, 0, 0.973745763301849365234375, 1, },
@@ -310,19 +310,19 @@ return {
 								{ 
 									children = {
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/bogie_p2_lod1.msh",
 											name = "bogie_p2",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.596149981021881103515625, 1, },
 										},
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/rad_2t7_lod1.msh",
 											name = "a3",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.65509998798370361328125, 0, 0.4570899903774261474609375, 1, },
 										},
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/rad_2t7_lod1.msh",
 											name = "a4",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.657599985599517822265625, 0, 0.4570899903774261474609375, 1, },
@@ -340,7 +340,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/antrieb_links_lod0.msh",
 									name = "antrieb_links",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0054999999701976776123046875, 0.953494012355804443359375, 1.3275973796844482421875, 1, },
@@ -354,7 +354,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/antrieb_rechts_lod0.msh",
 									name = "antrieb_rechts",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.00540000014007091522216796875, -0.95349395275115966796875, 0.620044410228729248046875, 1, },
@@ -368,7 +368,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/binder_links_lod0.msh",
 									name = "binder_links",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.004800000227987766265869140625, 1.07552015781402587890625, 1.327785968780517578125, 1, },
@@ -382,7 +382,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/binder_rechts_lod0.msh",
 									name = "binder_rechts",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0051000001840293407440185546875, -1.07552325725555419921875, 0.62029135227203369140625, 1, },
@@ -396,7 +396,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/schieber_links_lod0.msh",
 									name = "schieber_links",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.918900012969970703125, 1.07518994808197021484375, 1.1935002803802490234375, 1, },
@@ -410,7 +410,7 @@ return {
 											type = "FILE_REF",
 										},
 									},
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/schieber_rechts_lod0.msh",
 									name = "schieber_rechts",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.82630002498626708984375, -1.07519233226776123046875, 1.182054042816162109375, 1, },
@@ -418,7 +418,7 @@ return {
 								{ 
 									materials = { "mat/glas.mtl", },
 									mesh = "msh/glas_lod0.msh",
-									name = "licht_glas_p2",
+									name = "glas",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -472,19 +472,19 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rumpf_2t7_lod1.msh",
 									name = "rumpf_2t7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_2t7_lod1.msh",
 									name = "a5",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3608000278472900390625, 0, 0.4700159728527069091796875, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_2t7_lod1.msh",
 									name = "a6",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.35959994792938232421875, 0, 0.4700159728527069091796875, 1, },
@@ -550,19 +550,19 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kpev.mtl", },
+									materials = { "mat/rumpf.mtl", },
 									mesh = "msh/rumpf_p2_lod2.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_lod2.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.973745763301849365234375, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_lod2.msh",
 									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2269999980926513671875, 0, 0.973745763301849365234375, 1, },
@@ -570,19 +570,19 @@ return {
 								{ 
 									children = {
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/bogie_p2_lod2.msh",
 											name = "bogie_p2",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.596149981021881103515625, 1, },
 										},
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/rad_2t7_lod2.msh",
 											name = "a3",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.65509998798370361328125, 0, 0.4570899903774261474609375, 1, },
 										},
 										{ 
-											materials = { "mat/tender_kpev.mtl", },
+											materials = { "mat/tender.mtl", },
 											mesh = "msh/rad_2t7_lod2.msh",
 											name = "a4",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.657599985599517822265625, 0, 0.4570899903774261474609375, 1, },
@@ -598,19 +598,19 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kpev.mtl", },
+									materials = { "mat/rumpf.mtl", },
 									mesh = "msh/rumpf_2t7_lod2.msh",
 									name = "rumpf_2t7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_2t7_lod2.msh",
 									name = "a5",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3608000278472900390625, 0, 0.4700159728527069091796875, 1, },
 								},
 								{ 
-									materials = { "mat/tender_kpev.mtl", },
+									materials = { "mat/tender.mtl", },
 									mesh = "msh/rad_2t7_lod2.msh",
 									name = "a6",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.35959994792938232421875, 0, 0.4700159728527069091796875, 1, },
@@ -629,15 +629,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1881,
-				yearTo = 1916,
+				yearFrom = 1879,
+				yearTo = 1881,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("pr_p2_desc"),
-				name = _("pr_p2_kpev"),
+				name = _("pr_p2"),
 			},
 			emissions = { 
 				noise = { 
@@ -650,10 +650,6 @@ return {
 					power = -1,
 					speed = -1,
 				},
-			},
-			extent = { 
-				bbMax = { 7.419775485992431640625, 1.52535331249237060546875, 4.651417255401611328125, },
-				bbMin = { -7.9617137908935546875, -1.52535331249237060546875, -0.0674493014812469482421875, },
 			},
 			landVehicle = { 
 				brakeDeceleration = 2.5,
@@ -1040,7 +1036,7 @@ return {
 						loadConfigs = {
 							{ 
 								cargoEntry = { 
-									capacity = 0,
+									capacity = 4,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
@@ -1055,9 +1051,10 @@ return {
 						},
 					},
 				},
-				engineTags = { "TRAIN", "ELECTRIC_TRAIN", },
+				engineTransportModes = { "TRAIN", "ELECTRIC_TRAIN", },
 				groupFileName = "menu_pr_p2.mdl",
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
