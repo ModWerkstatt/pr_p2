@@ -1,5 +1,19 @@
 {
-    "dependencies": null,
+    "dependencies": [
+        {
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_basis",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt Base Mod",
+                "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
+            },
+            "optional": false
+        }
+    ],
     "incompatibilities": null,
     "modId": "mw_pr_p2",
     "params": null,
