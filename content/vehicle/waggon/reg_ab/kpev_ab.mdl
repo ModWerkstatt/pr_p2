@@ -772,7 +772,7 @@ return {
 				},
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.4,
 				curveSpeedScale = 1,
 				engines = { },
 				friction = 0.02,

@@ -656,7 +656,7 @@ return {
 				bbMin = { -7.9617137908935546875, -1.52535331249237060546875, -0.0674493014812469482421875, },
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.3,
 				engines = {
 					{ 
 						power = 150,
