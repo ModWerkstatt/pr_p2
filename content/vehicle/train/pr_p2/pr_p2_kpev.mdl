@@ -24,12 +24,28 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/tender_kpev.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.973746, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/tender_kpev.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a2",
